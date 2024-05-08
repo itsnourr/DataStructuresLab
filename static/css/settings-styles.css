@@ -2,7 +2,7 @@ body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 40px;
+    padding-top: 20px;
     background: linear-gradient(to bottom, white, #f0f0f0);
     overflow: hidden;
     height: 100%;
@@ -87,7 +87,6 @@ header {
     color: white;
 }
 
-
 @media (max-width: 600px) {
     .nav-links {
         display: none;
@@ -97,12 +96,23 @@ header {
     }
 }
 
+.form-boxes {
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 0; */
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+
+
 .settings-container {
     width: 80%;
     max-width: 500px;
     margin: 0 auto;
     background-color: #f4f4f4;
     padding: 20px;
+    padding-top: 10px;
     /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
     text-align: center;
     margin-top: 80px;
@@ -115,7 +125,7 @@ header {
     color: #333;
     
     /* color: #4EF59B; */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .settings-list {
@@ -167,4 +177,12 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.form-boxes {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    /* margin-bottom: 40px; */
+    font-size: 18px;
 }
